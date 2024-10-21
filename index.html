@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Core</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/logo.jpg">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <div class="head">
+                <h1>Sweet Core</h1>
+                <p>INSPIRED BY CHOCOLATE</p>
+            </div>
+            
+            <nav>
+                <div class="bars">
+                    <div class="itemBars"></div>
+                    <div class="itemBars"></div>
+                    <div class="itemBars"></div>
+                </div>
+                <ul class="menu">
+                    <li class="liMenu" style="--i:1"><a href="#">Home</a></li>
+                    <li class="liMenu" style="--i:2"><a href="#">About Us</a></li>
+                    <li class="liMenu" style="--i:3"><a href="#">Products</a></li>
+                    <li class="liMenu" style="--i:4"><a href="#">Support</a></li>
+                    <li class="liMenu" style="--i:5"><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="info_icons_shop">
+                <i class="fa fa-shopping-bag bag">
+                    <span>0</span>
+                </i>
+                <i class="fa fa-heart openFav"></i>
+                <i class="fa fa-credit-card payCont"></i>
+                <div class="favorite">
+                    <!-- <div>
+                    <img src="images/1.jpg" alt="">
+                    <h2>Bon Bon</h2>
+                    <h3>540 դրամ</h3>
+                    <i class="fa fa-trash"></i>
+                    </div> -->
+                </div>
+            </div>
+            
+
+            </div>
+
+            <div class="slider_topProducts">
+                <h2>TOP PRODUCTS</h2>
+                <div class="slider">
+                    <div class="sliderImg" style="--a:1">
+                        <div class="backSlider"></div>
+                        <img src="images/1.jpg" alt="">
+                    </div>
+                    <div class="sliderImg" style="--a:2">
+                        <div class="backSlider"></div>
+                        <img src="images/2.jpg" alt="">
+                    </div>
+                    <div class="sliderImg" style="--a:3">
+                        <div class="backSlider"></div>
+                        <img src="images/3.jpg" alt="">
+                    </div>
+                    <div class="sliderImg" style="--a:4">
+                        <div class="backSlider"></div>
+                        <img src="images/4.jpg" alt="">
+                    </div>
+                    <div class="sliderImg" style="--a:5">
+                        <div class="backSlider"></div>
+                        <img src="images/5.jpg" alt="">
+                    </div>
+                    <div class="sliderImg" style="--a:6">
+                        <div class="backSlider"></div>
+                        <img src="images/6.jpg" alt="">
+                    </div>
+                </div>
+                <div class="clickSlider">
+                    <img class="sliderChange" src="images/6.jpg" alt="" data="1">
+                    <img class="sliderChange" src="images/1.jpg" alt="" data="2">
+                    <img class="sliderChange" src="images/2.jpg" alt="" data="3">
+                    <img class="sliderChange" src="images/3.jpg" alt="" data="4">
+                    <img class="sliderChange" src="images/4.jpg" alt="" data="5">
+                    <img class="sliderChange" src="images/5.jpg" alt="" data="6">
+                </div>
+
+            </div>
+        </header>
+
+        <div class="container_products">
+            <div class="contCategory">
+                <div class="selectCategory">
+                    <p>CATEGORIES</p>
+                    
+                    <div class="categories">
+                        <button class="allProducts selectButtons">All</button>
+                        <button class="selectButtons" data="Bon Bon">Bon Bon</button>
+                        <button class="selectButtons" data="Coockie">Coockie</button>
+                        <button class="selectButtons" data="Chocolate Bars">Chocolate Bars</button>
+                        <button class="selectButtons" data="Mindiant">Mindiant</button>
+                        <button class="selectButtons" data="Chocolate Box">Chocolate Box</button>
+                        <button class="selectButtons" data="Mini Box">Mini Box</button>
+                    </div>
+                </div>
+                <div class="priceFilter">
+                    <input type="text" class="minPrice" placeholder="Min Price">
+                    <i class="fa fa-filter"></i>
+                </div>
+                <div class="priceFilter">
+                    <input type="text" class="maxPrice" placeholder="Max Price">
+                    <i class="fa fa-filter"></i>
+                </div>
+                
+                
+                <button class="searchForPrice">Search for Price</button>
+            </div>
+            <div class="contProducts">
+                <!-- <div class="itemProducts">
+                    <img src="images/7.jpg" alt="">
+                        <h2 class="name">Bon Bon</h2>
+                        <h3>540 դրամ</h3>
+                        <button class="buy">Buy now</button>
+                        <div class="itemIcons">
+                            <i class="fa fa-cart-plus cart"></i>
+                            <i class="fa fa-heart heart"></i>
+                         </div>
+                 </div>          -->
+
+                
+            </div>
+
+        </div>
+        <div class="basket">
+            <div class="total-count">
+                <p class="total">Total : 0 դրամ</p>
+                <p class="count">Count : <span>0</span></p>
+            </div>
+            <div class="contBasket">
+                <!-- <div>
+                    <img src="images/1.jpg" alt="">
+                    <h2>Bon Bon</h2>
+                    <h3>540 դրամ</h3>
+                    <i class="fa fa-trash"></i>
+                    <p class="countProd"></p>
+                    <i class="fa fa-plus"></i>
+                </div> -->
+            </div>
+        </div>
+        <div class="contMoney">
+            <div class="topMoney">
+                <p>Balance : <span class="money">0</span></p>
+                <p>Total : <span  class="grandTotal">0</span></p>
+            </div>
+            <div class="pay">
+                <div class="topPay">
+                    <p>PAY WITH MASTER/VISA CARD</p>
+                    <div class="mastervisa">
+                    </div>
+                    <span>FILL IN THE GIVEN FIELDS</span>
+                </div>
+                <div class="form">
+                    <div class="name-surname">
+                        <span><input class="nameA" type="text" placeholder="Name"><img src="images/close.png" alt="" class="nameImg"></span>
+                        <span><input class="Surname" type="text" placeholder="Surname"><img src="images/close.png" alt="" class="surnameImg"></span>
+                    </div>
+                    <span><input class="number-cart" type="text" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="19">
+                    <img src="images/close.png" alt="" class="cartImg"></span>
+                    <span><input class="month-year" type="text" placeholder="08/23" maxlength="5"><img src="images/close.png" alt="" class="dateImg"></span>
+                    <span><input class="cvv" type="text" placeholder="123" maxlength="3"><img src="images/close.png" alt="" class="cvvImg"></span>
+                    <span><input class="address" type="text" placeholder="Address"><img src="images/close.png" alt="" class="addressImg"></span>
+                    <div class="phoneNumber">
+                        <span><input type="tel" placeholder="+374" class="telnumber" maxlength="4"></span> 
+                        <span><input type="tel" placeholder="96" class="tel" maxlength="2"></span>
+                        <span><input type="tel" placeholder="XX" class="tel" maxlength="2"></span>
+                        <span><input type="tel" placeholder="XX" class="tel" maxlength="2"></span>
+                        <span><input type="tel" placeholder="XX" class="tel" maxlength="2"><img src="images/close.png" alt="" class="telImg"></span>
+                    </div>
+                    <button class="payButton">Pay</button>
+                </div>
+            </div>
+
+
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
